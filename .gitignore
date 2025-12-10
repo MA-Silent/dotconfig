@@ -6,4 +6,7 @@
 !matugen/
 !matugen/**
 
+!hypr/
+!hypr/**
+
 !.gitignore
