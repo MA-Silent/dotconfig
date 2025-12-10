@@ -1,0 +1,9 @@
+*
+
+!nvim/
+!nvim/**
+
+!matugen/
+!matugen/**
+
+!.gitignore

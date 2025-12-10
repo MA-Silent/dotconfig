@@ -1,0 +1,4 @@
+require('silent.remap')
+require("silent.init_lazy")
+
+vim.opt.relativenumber = true
