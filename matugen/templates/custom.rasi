@@ -1,0 +1,10 @@
+
+* {
+	background: 	{{colors.surface_container_low.default.hex}};
+	background-alt:	{{colors.background.default.hex}};
+	foreground:     {{colors.inverse_surface.default.hex}};
+	selected:	{{colors.on_primary_fixed_variant.default.hex}};
+	active:         {{colors.on_primary_fixed.default.hex}};
+	urgent:         {{colors.on_error_container.default.hex}};
+}
+

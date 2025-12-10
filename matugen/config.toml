@@ -8,3 +8,7 @@ output_path=    '~/.config/waybar/colors/wallColors.css'
 [templates.hyprland]
 input_path=	'./templates/hyprColors.conf'
 output_path=	'~/.config/hypr/hyprColors.conf'
+
+[templates.rofi]
+input_path=	'./templates/custom.rasi'
+output_path=	'~/.config/rofi/colors/custom.rasi'

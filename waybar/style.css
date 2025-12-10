@@ -1,9 +1,113 @@
 @import "./colors/wallColors.css";
 
 * {
-	background: transparent;
-	font-family: "Adwaita Sans","FiraCode Nerd Font propo"
+	font-family: "Adwaita Sans","GeistMono Nerd Font Propo", sans-serif;
+	
+	font-size: 16px;
+	font-weight: bold;
+
+	border: none;
+	border-radius: 0px;
+	
+	min-height: 0;
+	padding: 0;
+	margin: 0;
 }
+
+window#waybar {
+	background: transparent;
+}
+
+tooltip {
+	background: @surface;
+	border:	1px solid @surface_bright;
+	border-radius: 12px;
+}
+
+tooltip label {
+	color: @secondary_fixed_dim;
+	padding: 6px;
+}
+
+#workspaces{
+	background-color: @surface;
+	padding: 5px 3px;
+	margin: 0 0 0 12px;
+	border-radius: 18px;
+	border: 1px solid @surface_container;
+	color: @primary;
+}
+
+#workspaces button {
+	padding: 0px 6px;
+	margin: 0px 3px;
+	border-radius: 50px;
+	color: transparent;
+	background-color: @surface_container;
+	transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active {
+	background-color: @primary;
+	color: @surface;
+	min-width: 50px;
+	transition: all 0.3s ease-in-out;
+	font-size: 13px;
+}
+
+#workspaces button:hover {
+	background-color: @primary;
+	color: @surface;
+	border-radius: 16px;
+	min-width: 50px;
+	background-size: 400% 400%;
+	
+}
+
+#workspaces button.urgent {
+	background-color: @on_error;
+	color: @surface;
+	border-radius: 16px;
+	min-width: 50px;
+	background-size: 400% 400%;
+	transition: all 0.3s ease-in-out;
+}
+
+#battery,
+#pulseaudio,
+#network,
+#clock,
+#backlight-slider,
+#custom-notification {
+	background-color: @surface;
+	padding: 0 15px 0 15px;
+	margin: 0 0 0 12px;
+	border-radius: 50px;
+	border: 1px solid @surface_container;
+}
+
+#clock {
+	color: @primary;
+}
+
+#custom-notification {
+	color: @secondary;
+	margin-right: 12px;
+}
+
+#battery {
+	color: @tertiary;
+}
+
+#network {
+	color: @surface_tint;
+}
+
+#pulseaudio {
+	color: @inverse_on_surface;
+}
+
+/* custom stuff */
 
 #backlight-slider slider {
     min-height: 0px;

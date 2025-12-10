@@ -12,4 +12,10 @@
 !waybar
 !waybar/**
 
+!rofi/
+!rofi/**
+
+!kitty/
+!kitty/**
+
 !.gitignore
