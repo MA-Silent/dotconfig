@@ -1,0 +1,6 @@
+@import "./colors/wallColors.css";
+
+* {
+	background: transparent;
+	font-family: "Adwaita Sans","FiraCode Nerd Font propo"
+}

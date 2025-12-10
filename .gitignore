@@ -9,4 +9,7 @@
 !hypr/
 !hypr/**
 
+!waybar
+!waybar/**
+
 !.gitignore

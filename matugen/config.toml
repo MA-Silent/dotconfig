@@ -3,4 +3,8 @@ mode="dark"
 
 [templates.waybar]
 input_path=     './templates/colors.css'
-output_path=    '~/Desktop/colors.css'
+output_path=    '~/.config/waybar/colors/wallColors.css'
+
+[templates.hyprland]
+input_path=	'./templates/hyprColors.conf'
+output_path=	'~/.config/hypr/hyprColors.conf'
