@@ -12,3 +12,8 @@ output_path=	'~/.config/hypr/hyprColors.conf'
 [templates.rofi]
 input_path=	'./templates/custom.rasi'
 output_path=	'~/.config/rofi/colors/custom.rasi'
+
+[templates.kitty]
+input_path=	'./templates/kittyColors.conf'
+output_path=	'~/.config/kitty/colors.conf'
+
